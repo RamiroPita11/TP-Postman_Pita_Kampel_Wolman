@@ -1,0 +1,12 @@
+{
+  "name": "tp-express-postman-wolman-pita-kampel",
+  "version": "1.0.0",
+  "description": "tp de express y postman",
+  "license": "ISC",
+  "author": "Pita, Wolman, Kampel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+   "start": "node index.js"
+  }
+}
