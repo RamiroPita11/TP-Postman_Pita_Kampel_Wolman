@@ -87,5 +87,5 @@ const OMDBGetByImdbID = async (imdbID) => {
 
 };
 
-// Exporto todo lo que yo quiero exponer del módulo:
+
 export {OMDBSearchByPage, OMDBSearchComplete, OMDBGetByImdbID};

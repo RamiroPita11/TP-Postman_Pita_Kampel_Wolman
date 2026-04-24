@@ -61,7 +61,7 @@ app.get('/matematica/dividir', (req, res) => {
 });
 
 app.get('/alumnos/:dni', (req, res) => {
-  const alumno = buscarAlumno();
+const alumno = alumnosArray.find(a => String(a.dni) === String(req.params.dni));
   res.status(200).send(alumno);
 });
 
